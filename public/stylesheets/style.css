@@ -6,12 +6,38 @@ body {
 	background-image: url(/images/wildtextures-raindrops-ripples.jpg);
 	color: white;
 	font-size: 100px;
-	margin-top: 10%;
 	width: 90%;
 	height: 20%;
 	background-size: cover;
 	background-repeat: no-repeat;
-	border-radius: 10px;
-	padding: 2%;
+	border: solid white 5px;
+	padding: 3%;
 
+}
+
+#karinphoto {
+	width: 150px;
+	height: 250px;
+	vertical-align: middle;
+	border: solid #9BC4E2 5px;
+	margin-left: 3%;
+
+}
+
+#icondiv {
+	text-align: center;
+}
+
+.icon {
+	height: 5%;
+	width: 5%;
+	padding: 5px;
+
+}
+
+.icon:hover {
+	-ms-transform: rotate(30deg); /* IE 9 */
+	-webkit-transform: rotate(360deg);
+	transition: 2s; /* Chrome, Safari, Opera */
+	transform: rotate(30deg);  
 }
