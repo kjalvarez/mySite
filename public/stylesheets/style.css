@@ -1,9 +1,13 @@
+a {
+	color: white;
+}
+
 body {
 	background-color: #9BC4E2
 }
 .name {
 	font-family: 'Nothing You Could Do';
-	background-image: url(/images/wildtextures-raindrops-ripples.jpg);
+	background-image: url('/images/wildtextures-raindrops-ripples.jpg');
 	color: white;
 	font-size: 100px;
 	width: 90%;
@@ -12,6 +16,9 @@ body {
 	background-repeat: no-repeat;
 	border: solid white 5px;
 	padding: 3%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 
 }
 
@@ -32,6 +39,7 @@ body {
 
 #icondiv {
 	text-align: center;
+	margin-top: 10%;
 }
 
 .icon {
@@ -46,4 +54,22 @@ body {
 	-webkit-transform: rotate(360deg);
 	transition: 2s; /* Chrome, Safari, Opera */
 	transform: rotate(30deg);  
+}
+
+.moreinfobox {
+	text-align: center;
+}
+
+.moreinfo {
+	width: 15%;
+	color: white;
+	padding: 3%;
+	background-color: #867970;
+	margin-top: 1%;
+	margin-left: 3%;
+	margin-right: 3%;
+	display: inline-block;
+	-webkit-border-radius: 50%;
+	border: solid 3px #3D352A;
+
 }

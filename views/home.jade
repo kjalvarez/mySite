@@ -1,13 +1,17 @@
 extends layout
 
 block content
-	#icondiv.animated 
+	#icondiv.animated
 		img(class='icon', src='/images/wordpress-icon.png')
 		img(class='icon', src='/images/twittericon.png')
 		img(class='icon', src='/images/linkedinicon.png')
-	div.name
-		span.text-glow #{title} 
-		img(id= 'karinphoto', src='/images/karinpic.jpg')
+	div.name.row
+		span.text-glow #{title}
+	div.moreinfobox
+		div.moreinfo <a>About</a>
+		div.moreinfo <a>Projects</a>
+		div.moreinfo <a>Contact</a>
 
+		
 
 	
