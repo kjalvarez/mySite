@@ -1,24 +1,36 @@
 a {
-	color: white;
+	color: black;
+	font-weight: bold;
 }
 
 body {
-	background-color: #9BC4E2
+	background-image: url('/images/wildtextures-seamless-blue-painted-planks.jpg');
+
 }
 .name {
-	font-family: 'Nothing You Could Do';
-	background-image: url('/images/wildtextures-raindrops-ripples.jpg');
+	font-family: 'Cinzel Decorative';
 	color: white;
-	font-size: 100px;
+	font-size: 90px;
 	width: 90%;
 	height: 20%;
 	background-size: cover;
 	background-repeat: no-repeat;
-	border: solid white 5px;
 	padding: 3%;
+	margin-top: 15%;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+	border-top: solid 3px white;
+	border-bottom: solid 3px white;
+
+}
+
+.author {
+	font-family: 'Cinzel Decorative';
+	color: white;
+	font-size: 28px;
+	text-align: center;
+	padding-top: 2%;
 
 }
 
@@ -37,16 +49,11 @@ body {
 
 }
 
-#icondiv {
-	text-align: center;
-	margin-top: 10%;
-}
-
 .icon {
-	height: 5%;
-	width: 5%;
-	padding: 5px;
-
+	height: 10%;
+	width: 10%;
+	padding: 5px 5px 5px 5px; 
+	display: inline-block;
 }
 
 .icon:hover {
@@ -56,20 +63,35 @@ body {
 	transform: rotate(30deg);  
 }
 
-.moreinfobox {
-	text-align: center;
+.bottombanner {
+	margin-top: 10%;
+	opacity: rgba(255, 255, 255, 0.6);
+	background-image: url('/images/wildtextures-wooden-chopping-board-texture-2.jpg');
+	display: inline-block;
+	border-top: 3px solid white;
+}
+
+.moreinfodiv {
+	text-align: right;
+	display: inline-block;
+	width: 50%
+}
+
+.icondiv {
+	text-align: left;
+	display: inline-block;
+	width: 50%
+
+}
+
+.link {
+	border-right: 3px solid white;
+	padding: 5px 5px 5px 5px;
 }
 
 .moreinfo {
-	width: 15%;
-	color: white;
-	padding: 3%;
-	background-color: #867970;
-	margin-top: 1%;
-	margin-left: 3%;
-	margin-right: 3%;
 	display: inline-block;
-	-webkit-border-radius: 50%;
-	border: solid 3px #3D352A;
+	font-size: 24px;
+	font-family: 'Cinzel Decorative';
 
 }
