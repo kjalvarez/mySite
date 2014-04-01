@@ -95,3 +95,41 @@ body {
 	font-family: 'Cinzel Decorative';
 
 }
+
+.sectionTitle {
+	font-family: 'Cinzel Decorative';
+	padding: 1%;
+}
+
+.section {
+	margin: 10% 10% 10% 10%;
+	background-color: orange;
+	font-family: "Gilda Display";
+	font-size: 20px;
+	background-color: rgba(255, 255, 255, 0.8);
+	border: solid 3px #8B8378;
+	padding: 2%;
+
+}
+
+.bioImage {
+	width: 150px;
+	height: 200px;
+	float: left;
+	border: solid 1px #8B8378;
+	margin-right: 2%;
+	margin-left: 2%
+
+}
+
+p {
+	text-indent: 50px;
+}
+.about {
+	background-image: url('/images/wildtextures-red-ivy-vine-trellis.jpg');
+	background-attachment: fixed;
+}
+
+.link-color {
+	color: #00688B;
+}

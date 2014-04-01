@@ -1,7 +1,10 @@
 module.exports = {
-	index: function(req, res) {
-		res.render('home', {
-			title: ''
-		})
+	home: function(req, res) {
+		res.render('home', {})
+	},
+
+	about: function(req, res) {
+		res.render('about', {})
 	}
+
 }

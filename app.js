@@ -6,7 +6,7 @@
 var express = require('express');
 var http = require('http');
 var path = require('path');
-var home = require('./controllers/pageController')
+var index = require('./controllers/pageController')
 
 var app = express();
 
@@ -27,7 +27,8 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
-app.get('/', home.index);
+app.get('/', index.home);
+app.get('/about', index.about);
 
 
 
