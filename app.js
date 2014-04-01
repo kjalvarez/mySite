@@ -29,6 +29,9 @@ if ('development' == app.get('env')) {
 
 app.get('/', index.home);
 app.get('/about', index.about);
+app.get('/aboutDirection', function (req, res) {
+	res.redirect('/about')
+})
 
 
 
