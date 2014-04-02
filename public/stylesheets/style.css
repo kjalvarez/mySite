@@ -113,8 +113,8 @@ body {
 }
 
 .bioImage {
-	width: 150px;
-	height: 200px;
+	width: 190px;
+	height: 260px;
 	float: left;
 	border: solid 1px #8B8378;
 	margin-right: 2%;
@@ -122,7 +122,14 @@ body {
 
 }
 
-p {
+iframe {
+	margin: 10% 10% 10% 10%;
+	border: solid 3px black;
+	color: black;
+
+}
+
+.indent {
 	text-indent: 50px;
 }
 .about {

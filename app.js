@@ -32,6 +32,10 @@ app.get('/about', index.about);
 app.get('/aboutDirection', function (req, res) {
 	res.redirect('/about')
 })
+app.get('/contact', index.contact);
+app.get('/contactDirection', function (req, res) {
+	res.redirect('/contact')
+})
 
 
 
