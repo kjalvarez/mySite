@@ -36,6 +36,10 @@ app.get('/contact', index.contact);
 app.get('/contactDirection', function (req, res) {
 	res.redirect('/contact')
 })
+app.get('/projects', index.projects);
+app.get('/projectsDirection', function(req, res) {
+	res.redirect('projects')
+})
 
 
 
