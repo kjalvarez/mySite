@@ -132,6 +132,10 @@ iframe {
 .indent {
 	text-indent: 50px;
 }
+
+li {
+	margin-left: 20px;
+}
 .about {
 	background-image: url('/images/wildtextures-red-ivy-vine-trellis.jpg');
 	background-attachment: fixed;
