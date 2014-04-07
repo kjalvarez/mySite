@@ -27,7 +27,7 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
-app.get('/', index.home);
+app.get('/home', index.home);
 app.get('/about', index.about);
 app.get('/aboutDirection', function (req, res) {
 	res.redirect('/about')
@@ -37,12 +37,12 @@ app.get('/contactDirection', function (req, res) {
 	res.redirect('/contact')
 })
 app.get('/projects', index.projects);
-app.get('/projectsDirection', function(req, res) {
+app.get('/projectsDirection', function (req, res) {
 	res.redirect('projects')
 })
-
-
-
+app.get('/homeDirection', function (req, res) {
+	res.redirect('home')
+})
 
 
 http.createServer(app).listen(app.get('port'), function(){

@@ -63,6 +63,19 @@ body {
 	transform: rotate(30deg);  
 }
 
+#homeicon {
+	height: 80px;
+	width: 80px; 
+	display: inline-block;
+}
+
+#homeicon:hover {
+	-ms-transform: rotate(30deg); /* IE 9 */
+	-webkit-transform: rotate(360deg);
+	transition: 2s; /* Chrome, Safari, Opera */
+	transform: rotate(30deg);  
+}
+
 .bottombanner {
 	margin-top: 10%;
 	opacity: rgba(255, 255, 255, 0.6);
@@ -102,7 +115,7 @@ body {
 }
 
 .section {
-	margin: 10% 10% 10% 10%;
+	margin: 2% 10% 10% 10%;
 	background-color: orange;
 	font-family: "Gilda Display";
 	font-size: 20px;
@@ -123,7 +136,8 @@ body {
 }
 
 iframe {
-	margin: 10% 10% 10% 10%;
+	margin: 0 10% 10% 10%;
+	margin-top: 1%;
 	border: solid 3px black;
 	color: black;
 
@@ -172,3 +186,20 @@ li {
 	vertical-align: middle;
 }
 
+.navBar {
+	text-align: center;
+	font-family: 'Cinzel Decorative';
+	font-size: 18px;
+	color: black;
+	margin-left: 80%;
+	margin-right: 5%;
+	margin-top: 2%;
+	background-color: #C5E3BF;
+	width: 120px;
+	height: 120px;
+	border-radius: 60px;
+	border: solid 3px #8B8378;
+	
+	
+	
+}
