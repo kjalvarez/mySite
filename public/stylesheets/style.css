@@ -150,3 +150,24 @@ li {
 	height: 100px;
 	width: 400px;
 }
+
+.screenShot {
+	width: 30%;
+	display: inline-block;
+
+}
+
+.screenImage {
+	width: 100%;
+	height: 100%;
+	border: 1px solid black;
+}
+
+.projInfo {
+	display: inline-block;
+	width: 70%;
+	padding: 10px;
+	font-size: 18px;
+	vertical-align: middle;
+}
+
